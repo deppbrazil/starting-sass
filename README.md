@@ -1,2 +1,1 @@
-# starting-sass
-Usando o SASS
+# Usando o SASS #
