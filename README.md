@@ -1,6 +1,6 @@
 # Usando o SASS #
 
-com Prompt do Ruby e scss
+com Prompt do Ruby e .scss
 
 ## Primeiros passos ##
 * abrir terminal do Ruby
@@ -10,3 +10,8 @@ com Prompt do Ruby e scss
 * no terminal -> sass style.scss:style.css 
 * para compilar em tempo real -> sass --watch style.scss:style.css
 
+## Módulos ## 
+* Encadeamento 
+* Variáveis
+* Import Reset
+* Include @Mixin

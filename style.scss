@@ -1,18 +1,37 @@
 @charset "UTF-8";
 
+//Variaveis
+$primary-color: #333333;
+$second-color: #00ff00;
+
+// Import Reset
+@import "reset";
+
+
 body {
-	margin: 0;
-	background-color: black;
+	background-color:$primary-color;
 	display: flex;
 	flex-direction:row;
 	justify-content: center;
 	margin-top: 5vh;
-	margin-bottom: 5vh;	
+	margin-bottom: 5vh;
+}
+
+// Include Mixin
+@mixin position($value){
+	display:block;
+	margin-left:$value;
+	margin-right:$value;
 }
 
 #header {
-	background-color: red;
-	color: white;
+	@include position(auto);
+}
+
+//Encadeamento 
+#header {
+	background-color:$second-color;
+	color:$primary-color;
 	font-size: 10px;
 	width: 90vw;
 	height: 90vh;
@@ -20,12 +39,22 @@ body {
 	flex-direction:row;
 	justify-content: center;
 	align-items: center;
-}
 
-p {
+	p {
 	font-size: 8vw;
 	line-height: 20vh;
 	font-family: verdana;
+	}&:hover {
+		background-color:$primary-color;
+		color:$second-color;
+		cursor:  pointer;
+	}
 }
+
+
+
+
+
+
 
 
