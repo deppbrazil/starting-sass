@@ -16,7 +16,7 @@ body {
   margin-right: auto; }
 
 #header {
-  background-color: yellow;
+  background-color: #00ff00;
   color: #333333;
   font-size: 10px;
   width: 90vw;
@@ -31,7 +31,7 @@ body {
     font-family: verdana; }
   #header:hover {
     background-color: #333333;
-    color: yellow;
+    color: #00ff00;
     cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
