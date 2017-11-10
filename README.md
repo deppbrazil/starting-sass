@@ -9,6 +9,7 @@ com Prompt do Ruby e .scss
 * escrever o css no .scss
 * no terminal -> sass style.scss:style.css 
 * para compilar em tempo real -> sass --watch style.scss:style.css
+* parar monitoramento do sass -> Ctrl + C
 
 ## Módulos ## 
 * Encadeamento 
