@@ -13,6 +13,6 @@ com Prompt do Ruby e .scss
 
 ## Módulos ## 
 * Encadeamento 
-* Variáveis
+* Cores com Variáveis
 * Import Reset
 * Include @Mixin

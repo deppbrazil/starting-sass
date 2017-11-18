@@ -27,7 +27,7 @@ body {
   align-items: center; }
   #header p {
     font-size: 8vw;
-    line-height: 20vh;
+    line-height: auto;
     font-family: verdana; }
   #header:hover {
     background-color: #333333;

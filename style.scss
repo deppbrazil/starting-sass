@@ -3,6 +3,7 @@
 //Variaveis
 $primary-color: #333333;
 $second-color: #00ff00;
+$last-color:red;
 
 // Import Reset
 @import "reset";
@@ -42,7 +43,7 @@ body {
 
 	p {
 	font-size: 8vw;
-	line-height: 20vh;
+	line-height: auto;
 	font-family: verdana;
 	}&:hover {
 		background-color:$primary-color;
